@@ -11,7 +11,7 @@ export const contacts: Contact[] = [
 		icon: 'src/lib/icons/github.png',
 	},
 	{
-		name: 'linkdIn',
+		name: 'linkedIn',
 		link: 'https://www.linkedin.com/in/aur%C3%A9liane-dor-992967200/',
 		icon: 'src/lib/icons/linkedin.png'
 	},

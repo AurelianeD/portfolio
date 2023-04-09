@@ -1,6 +1,7 @@
 <script>
 	import Card	from '$components/Card.svelte';
 	import Header from "$components/Header.svelte";
+	import About	from "$components/About.svelte";
 	import { projects } from '$lib/data/projects.ts';
 </script>
 
@@ -14,7 +15,6 @@
 				<Card title={project.title} description={project.description} src={project.src} tags="{project.tags}" cardColor={project.cardColor}/>
 			{/each}
 		</div>
-		<h1 id="about">A propos</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet, aperiam deleniti dicta dignissimos distinctio error fuga id libero perspiciatis porro praesentium quaerat quis quo recusandae repellat sed, unde voluptatum.</p>
+		<About />
 	</div>
 </div>

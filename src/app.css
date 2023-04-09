@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p {
+    @apply text-lg;
+}
+
+h1{
+    @apply text-4xl;
+    @apply uppercase;
+    @apply my-10;
+}

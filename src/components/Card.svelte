@@ -7,9 +7,9 @@
 	export let tags: string[];
 	export let cardColor: string;
 
-	let containerStyle = "max-w-[400px] w-[70%] my-0 mx-auto rounded-2xl flex flex-col overflow-hidden";
+	let containerStyle = "max-w-[400px] w-[90%] my-0 mx-auto rounded-2xl flex flex-col overflow-hidden";
 	let topCardStyle = " bg-purple relative";
-	let bottomCardStyle = " py-4";
+	let bottomCardStyle = "py-4";
 	let textStyle = "max-w-[80%] mx-auto text-white"
 
 </script>
