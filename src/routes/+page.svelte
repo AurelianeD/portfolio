@@ -12,13 +12,15 @@
 		<h1 id="projects">Projets</h1>
 		<div class="flex flex-col justify-between gap-20 md:flex-row md:flex-wrap">
 			{#each projects as project}
-				<Card
-					title={project.title}
-					description={project.description}
-					src={project.src}
-					tags={project.tags}
-					cardColor={project.cardColor}
-				/>
+				<a href={project.link} class="no-underline">
+					<Card
+						title={project.title}
+						description={project.description}
+						src={project.src}
+						tags={project.tags}
+						cardColor={project.cardColor}
+					/>
+				</a>
 			{/each}
 		</div>
 		<About />
