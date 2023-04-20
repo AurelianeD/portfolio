@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url("$lib/fonts/spaceGrotesk.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@layer{
+    html{
+        font-family: SpaceGrotesk, sans-serif;
+    }
+}
+
 p {
     @apply text-lg;
 }
@@ -10,4 +23,8 @@ h1{
     @apply text-4xl;
     @apply uppercase;
     @apply my-10;
+}
+
+a{
+    @apply underline;
 }

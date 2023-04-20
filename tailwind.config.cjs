@@ -8,6 +8,9 @@ module.exports = {
       'midnight': '#121063',
       'white': '#ffffff',
       'black': '#000000',
+    },
+    fontFamily:{
+      sans: ['spaceGrotesk', 'sans-serif'],
     }
   },
   plugins: [],
