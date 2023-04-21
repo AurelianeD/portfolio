@@ -5,19 +5,18 @@
 	export let description: string;
 	export let src: string;
 	export let tags: string[];
-	export let cardColor: string;
 
 	let containerStyle =
-		'max-w-[400px] w-full rounded-2xl flex flex-col overflow-hidden border-2 border-black' +
+		'max-w-[400px] w-full h-full bg-white rounded-2xl flex flex-col overflow-hidden border-2 border-black ' +
 		' md:mx-0';
 	let topCardStyle = ' relative border-b-2 border-black';
 	let bottomCardStyle = 'py-4';
 	let textStyle = 'max-w-[80%] mx-auto';
 </script>
 
-<div class="{containerStyle} border">
+<div class={containerStyle}>
 	<div class={topCardStyle}>
-		<img {src} class="min-h-[150px] object-cover" alt={title} />
+		<img {src} class="max-h-[150px] object-cover w-full" alt={title} />
 		<Tags {tags} />
 	</div>
 	<div class={bottomCardStyle}>
