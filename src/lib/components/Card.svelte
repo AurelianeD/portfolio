@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Tags from '$components/Tags.svelte';
+	import Tags from '$lib/components/Tags.svelte';
 
 	export let title: string;
 	export let description: string;

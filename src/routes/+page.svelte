@@ -1,8 +1,8 @@
 <script>
-	import Card from '$components/Card.svelte';
-	import Header from '$components/Header.svelte';
-	import About from '$components/About.svelte';
-	import Footer from '$components/Footer.svelte';
+	import Card from '$lib/components/Card.svelte';
+	import Header from '$lib/components/Header.svelte';
+	import About from '$lib/components/About.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 	import { projects } from '$lib/data/projects.ts';
 </script>
 

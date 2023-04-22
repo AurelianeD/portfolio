@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'SpaceGrotesk';
-    src: url("$lib/fonts/spaceGrotesk.ttf") format("truetype");
+    src: url("static/fonts/spaceGrotesk.ttf") format("truetype");
     font-style: normal;
 }
 

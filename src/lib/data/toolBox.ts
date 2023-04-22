@@ -1,55 +1,55 @@
 export type Tool = {
-	name: string,
-	icon: string,
-}
+	name: string;
+	icon: string;
+};
 
 export const tools: Tool[] = [
 	{
 		name: 'TailwindCSS',
-		icon: 'src/lib/icons/tailwind.png',
+		icon: '/icons/tailwind.png'
 	},
 	{
 		name: 'Bootstrap',
-		icon: 'src/lib/icons/bootstrap.png',
+		icon: '/icons/bootstrap.png'
 	},
 	{
 		name: 'ReactJS / React Native',
-		icon: 'src/lib/icons/react.png',
+		icon: '/icons/react.png'
 	},
 	{
 		name: 'Svelte',
-		icon: 'src/lib/icons/svelte.png',
+		icon: '/icons/svelte.png'
 	},
 	{
 		name: 'TypeScript',
-		icon: 'src/lib/icons/typescript.png',
+		icon: '/icons/typescript.png'
 	},
 	{
 		name: 'Vite',
-		icon: 'src/lib/icons/vite.png',
+		icon: '/icons/vite.png'
 	},
 	{
 		name: 'Webstorm',
-		icon: 'src/lib/icons/webstorm.png',
+		icon: '/icons/webstorm.png'
 	},
 	{
 		name: 'Visual Studio Code',
-		icon: 'src/lib/icons/visual.png',
+		icon: '/icons/visual.png'
 	},
 	{
 		name: 'Firebase',
-		icon: 'src/lib/icons/firebase.png',
+		icon: '/icons/firebase.png'
 	},
 	{
 		name: 'PocketBase',
-		icon: 'src/lib/icons/pocket.png',
+		icon: '/icons/pocket.png'
 	},
 	{
 		name: 'Mac OS',
-		icon: 'src/lib/icons/mac.png',
+		icon: '/icons/mac.png'
 	},
 	{
 		name: 'Linux',
-		icon: 'src/lib/icons/linux.png',
+		icon: '/icons/linux.png'
 	}
-]
+];

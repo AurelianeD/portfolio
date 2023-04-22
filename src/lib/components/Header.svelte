@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { contacts } from '$lib/data/contact.ts';
-	let src = 'src/lib/images/aureliane.png';
+	let src = '/images/aureliane.png';
 
 	let containerStyle =
 		'px-6 py-5 border-black border-b-2 z-10 bg-white ' +
