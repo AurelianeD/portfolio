@@ -36,6 +36,9 @@
 		<li>
 			<a href="#about">A propos</a>
 		</li>
+		<li>
+			<a href="/laboratory">Laboratoire</a>
+		</li>
 	</ul>
 	<div class="hidden md:block">
 		<p class="pb-[10%]">Restons en contact :</p>
