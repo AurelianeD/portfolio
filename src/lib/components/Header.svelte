@@ -14,7 +14,7 @@
 <div class={containerStyle}>
 	<div class={topHeaderStyle}>
 		<div class={imgStyle}>
-			<img {src} class="object-cover" alt="photo de profil" />
+			<img {src} class="object-cover translate-y-[-20px]" alt="photo de profil" />
 		</div>
 		<div class={textStyle}>
 			<p>Auréliane Dor <span class="font-bold">développeuse front-end junior</span></p>
