@@ -6,15 +6,15 @@
 	let href = 'src/lib/cv_aurelianedor.pdf';
 </script>
 
-<div class={containerStyle}>
+<section class={containerStyle}>
 	<div class="md:w-[50%]">
 		<h1 id="about">A propos</h1>
 		<p class="pb-10">
 			Après avoir étudié l'architecture pendant 3 ans, j'ai décidé de me reconvertir dans les
-			métiers du web. Au cours de mes études je me suis découvert une passion pour le développement
+			métiers du web. Au cours de mes études, je me suis découvert une passion pour le développement
 			web, domaine dans lequel je me spécialise depuis 2 ans. Je suis capable d'intégrer des
-			maquettes et de créer des sites web dynamiques. Grace à mon exépérience en alternance, je
-			monte en compétence dans le développement d'application mobiles.
+			maquettes et de créer des sites web dynamiques. Grâce à mon expérience en alternance, je monte
+			en compétences dans le développement d'application.
 		</p>
 		<a {href}>CV - Téléchargement</a>
 	</div>
@@ -30,7 +30,7 @@
 			{/each}
 		</div>
 	</div>
-</div>
+</section>
 
 <style>
 	.tooltip {

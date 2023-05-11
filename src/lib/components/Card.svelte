@@ -9,12 +9,12 @@
 	let containerStyle =
 		'max-w-[400px] w-full h-full bg-white rounded-2xl flex flex-col overflow-hidden border-2 border-black ' +
 		' md:mx-0';
-	let topCardStyle = ' relative border-b-2 border-black';
+	let topCardStyle = ' relative border-b-2 border-black overflow-hidden';
 	let bottomCardStyle = 'py-4';
 	let textStyle = 'max-w-[80%] mx-auto';
 </script>
 
-<div class={containerStyle}>
+<article class={containerStyle}>
 	<div class={topCardStyle}>
 		<img {src} class="max-h-[150px] object-cover w-full" alt={title} />
 		<Tags {tags} />
@@ -25,4 +25,7 @@
 			<p>{description}</p>
 		</div>
 	</div>
-</div>
+</article>
+
+<style>
+</style>
