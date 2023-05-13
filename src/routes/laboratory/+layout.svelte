@@ -1,3 +1,5 @@
 <script></script>
 
-<slot />
+<div class="p-10 bg-black h-screen">
+	<slot />
+</div>

@@ -53,3 +53,13 @@ export const projects: Projects[] = [
 		link: 'https://safe-n-tech.netlify.app/'
 	}
 ];
+
+export const laboratory: Projects[] = [
+	{
+		title: 'Three.js Cubes',
+		description: 'Premier essai avec Three.js - Cliquez dans la scène pour y ajouter des cubes',
+		src: '/images/threejsCubes.png',
+		tags: ['Three.js'],
+		link: 'laboratory/threejs-cube/'
+	}
+];
