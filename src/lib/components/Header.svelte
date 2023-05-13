@@ -25,7 +25,7 @@
 			</p>
 			<p>
 				Alternante en <span class="font-bold">développement mobile</span> -
-				<a href="https://www.agenceminuit.com/">minuit.agency</a>
+				<a href="https://www.agenceminuit.com/" target="_blank">minuit.agency</a>
 			</p>
 		</div>
 	</div>
@@ -44,7 +44,7 @@
 		<p class="pb-[10%]">Restons en contact :</p>
 		<div class="md:flex md:justify-evenly">
 			{#each contacts as contact}
-				<a href={contact.link}>
+				<a href={contact.link} target="_blank">
 					<img src={contact.icon} alt="icon réseaux sociaux" class="max-w-[50px]" />
 				</a>
 			{/each}

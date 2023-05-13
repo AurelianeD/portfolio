@@ -16,7 +16,7 @@
 			maquettes et de créer des sites web dynamiques. Grâce à mon expérience en alternance, je monte
 			en compétences dans le développement d'application.
 		</p>
-		<a {href}>CV - Téléchargement</a>
+		<a {href} target="_blank">CV - Téléchargement</a>
 	</div>
 	<div class="py-10 md:w-[30%]">
 		<h2 class="text-[1.5em] pb-10">Ma boite à outils</h2>

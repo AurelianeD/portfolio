@@ -12,7 +12,7 @@
 		<h1 id="projects">Projets</h1>
 		<section class="flex flex-col justify-between items-stretch gap-20 md:flex-row md:flex-wrap">
 			{#each projects as project}
-				<a href={project.link} class="no-underline">
+				<a href={project.link} class="no-underline" target="_blank">
 					<Card
 						title={project.title}
 						description={project.description}
