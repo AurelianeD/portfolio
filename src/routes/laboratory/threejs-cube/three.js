@@ -42,7 +42,10 @@ function onMouseMove(event) {
 }
 
 function onClick(event) {
-	addCube(intersectionPoint.x, intersectionPoint.y, intersectionPoint.z);
+	let element = event.target.tagName;
+	if (element !== 'BUTTON') {
+		addCube(intersectionPoint.x, intersectionPoint.y, intersectionPoint.z);
+	}
 }
 
 const geometry = new THREE.BoxGeometry();
@@ -58,9 +61,7 @@ const animate = () => {
 	const intersects = raycaster.intersectObjects(scene.children);
 	if (intersects.length > 0) {
 		intersects[0].object.rotation.x += 0.05;
-		intersects[0].object.materials.color = 0xff0000;
 	}
-
 	renderer.render(scene, camera);
 };
 
@@ -99,4 +100,4 @@ export function clearCubes() {
 }
 
 window.addEventListener('mousemove', onMouseMove);
-window.addEventListener('click', onClick);
+window.addEventListener('click', (event) => onClick(event));
