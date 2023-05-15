@@ -9,4 +9,8 @@
 	});
 </script>
 
+<svelte:head>
+	<title>ThreeJS Cube | Laboratoire</title>
+</svelte:head>
+
 <canvas id="bg" bind:this={canvas} />

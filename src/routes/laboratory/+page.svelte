@@ -2,7 +2,11 @@
 	import { laboratory } from '$lib/data/projects';
 </script>
 
-<div>
+<svelte:head>
+	<title>Laboratoire | Portfolio</title>
+</svelte:head>
+
+<div class="background">
 	<a href="/" class="text-white">Retour au portfolio</a>
 	<h1 class="text-center text-white">Laboratoire</h1>
 	<p class="text-center text-white">Bienvenue dans mon sanctuaire d'expérimentation</p>
@@ -20,3 +24,10 @@
 		</a>
 	{/each}
 </div>
+
+<style>
+	.background {
+		height: 100%;
+		width: 100%;
+	}
+</style>

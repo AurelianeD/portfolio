@@ -6,6 +6,10 @@
 	import { projects } from '$lib/data/projects.ts';
 </script>
 
+<svelte:head>
+	<title>Auréliane Dor | Portfolio</title>
+</svelte:head>
+
 <div class="flex flex-col md:flex-row mb-10">
 	<Header />
 	<div class="max-w-[80%] mx-auto md:ml-[26%] mt-[10%] md:mt-10 md:mr-[5%]">
