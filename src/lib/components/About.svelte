@@ -3,7 +3,7 @@
 
 	let containerStyle = 'flex flex-col gap-10 mt-32 md:flex-row md:justify-between';
 	let toolStyle = 'flex flex-row flex-wrap gap-10 justify-center';
-	let href = 'src/lib/cv_aurelianedor.pdf';
+	let href = '/cv_aurelianedor.pdf';
 </script>
 
 <section class={containerStyle}>
