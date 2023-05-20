@@ -1,4 +1,4 @@
-export type Projects = {
+export type Project = {
 	title: string;
 	description: string;
 	src: string;
@@ -6,7 +6,7 @@ export type Projects = {
 	link: string;
 };
 
-export const projects: Projects[] = [
+export const projects: Project[] = [
 	{
 		title: 'Velonimo',
 		description:
@@ -54,7 +54,7 @@ export const projects: Projects[] = [
 	}
 ];
 
-export const laboratory: Projects[] = [
+export const laboratory: Project[] = [
 	{
 		title: 'Three.js Cubes',
 		description: 'Premier essai avec Three.js - Cliquez dans la scène pour y ajouter des cubes',
