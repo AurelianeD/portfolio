@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { browser } from '$app/environment';
 
 let renderer;
 let controls;
@@ -99,5 +100,7 @@ export function clearCubes() {
 	});
 }
 
-window.addEventListener('mousemove', onMouseMove);
-window.addEventListener('click', (event) => onClick(event));
+if (browser) {
+	window.addEventListener('mousemove', onMouseMove);
+	window.addEventListener('click', (event) => onClick(event));
+}
