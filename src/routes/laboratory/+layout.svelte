@@ -1,13 +1,18 @@
 <script>
 	import { onMount, onDestroy } from 'svelte';
+	import { browser } from '$app/environment';
 
 	onMount(() => {
-		const body = document.querySelector('body');
-		body.style.backgroundColor = 'black';
+		if (browser) {
+			const body = document.querySelector('body');
+			body.style.backgroundColor = 'black';
+		}
 	});
 	onDestroy(() => {
-		const body = document.querySelector('body');
-		body.style.backgroundColor = 'white';
+		if (browser) {
+			const body = document.querySelector('body');
+			body.style.backgroundColor = 'white';
+		}
 	});
 </script>
 
