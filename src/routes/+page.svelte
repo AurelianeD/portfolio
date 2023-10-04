@@ -4,8 +4,7 @@
 	import Card from '$lib/components/Card.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import About from '$lib/components/About.svelte';
-	import Footer from '$lib/components/Footer.svelte';
-	import { projects } from '$lib/data/projects.ts';
+	import { projects } from '$lib/data';
 	import type { Project } from '$lib/data/projects.ts';
 
 	let isReady = false;
