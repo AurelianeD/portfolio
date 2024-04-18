@@ -17,15 +17,12 @@
 <div class={containerStyle}>
 	<div class={topHeaderStyle}>
 		<div class={imgStyle}>
-			<img {src} class="object-cover translate-y-[-20px]" alt="photo de profil" />
+			<img {src} class="object-cover" alt="photo de profil" />
 		</div>
 		<div class={textStyle}>
-			<p>Auréliane Dor <span class="font-bold">développeuse front-end junior</span></p>
+			<p>Auréliane Dor</p>
 			<p>
-				BUT Métiers du Multimédia et de l'Internet (MMI) - <span class="font-bold">IUT Bordeaux Montaigne</span>
-			</p>
-			<p>
-				Alternante en <span class="font-bold">développement front-end</span> -
+				<span class="font-bold">Développeuse front-end web et mobile </span> chez
 				<a href="https://www.feelity.fr/" target="_blank">Feelity</a>
 			</p>
 		</div>

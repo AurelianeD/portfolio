@@ -32,7 +32,6 @@
 					<a
 						href={project.link}
 						class="no-underline"
-						target="_blank"
 						in:fly={{ y: 100, duration: 1000, delay: delay(project) }}
 					>
 						<Card
