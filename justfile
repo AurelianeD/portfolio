@@ -8,7 +8,7 @@ push:
   docker push registry.peauc.dev/aurelianed/portfolio
 
 deploy:
-  http POST https://portainer.peauc.dev/api/webhooks/8a200040-98c5-4d7f-bd30-17d21ae566fb
+  http POST https://portainer.peauc.dev/api/webhooks/036d3146-3dbc-4453-bf0f-954090ed9866
 
 build-push: dockerBuild push
   @echo "done"
