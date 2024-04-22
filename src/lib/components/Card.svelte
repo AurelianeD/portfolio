@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Tags from '$lib/components/Tags.svelte';
 	import {tweened} from "svelte/motion";
-	import {slide} from "svelte/transition"
 	import {cubicOut} from "svelte/easing";
 
 	export let title: string;
@@ -28,14 +27,13 @@
 </script>
 
 <article
-		class={containerStyle}
-		on:mouseenter={handleMouseEnter}
-		on:mouseleave={handleMouseLeave}
-		on:touchstart={handleMouseEnter}
-		on:touchend={handleMouseLeave}
-		transition:slide={{delay: 300}}
-		style="box-shadow: {$shadow * 6}px {$shadow * 3}px #191919, {$shadow * 12}px {$shadow * 6}px #191919, {$shadow *
-		18}px {$shadow * 9}px #191919; transform: translate(0, -{$shadow * 10}px "
+	class={containerStyle}
+	on:mouseenter={handleMouseEnter}
+	on:mouseleave={handleMouseLeave}
+	on:touchstart={handleMouseEnter}
+	on:touchend={handleMouseLeave}
+	style="box-shadow: {$shadow * 6}px {$shadow * 3}px #191919, {$shadow * 12}px {$shadow * 6}px #191919, {$shadow *
+	18}px {$shadow * 9}px #191919; transform: translate(0, -{$shadow * 10}px "
 >
 	<div class={topCardStyle}>
 		<img {src} class="max-h-[150px] object-cover w-full" alt={title} />
