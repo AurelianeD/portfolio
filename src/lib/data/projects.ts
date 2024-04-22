@@ -12,7 +12,7 @@ export const projects: Project[] = [
 		id: 1,
 		title: 'Dose ta dose',
 		description: 'Kit de sensibilisation à l’alcool à destination des infirmier(e)s des collèges.',
-		src: '/images/amedia.png', //TODO: changer l'image de courverture
+		src: '/images/dosetadose.png', //TODO: changer l'image de courverture
 		tags: ['SvelteKit', 'Typescript'],
 		link: 'https://dosetadose.mmibordeaux.com',
 	},
@@ -20,17 +20,9 @@ export const projects: Project[] = [
 		id: 1,
 		title: 'Tetyana',
 		description: 'Raconter le parcours d’une réfugié ukrainienne au travers d’une expérience numérique',
-		src: '/images/amedia.png', //TODO: changer l'image de courverture
+		src: '/images/tetyana.png', //TODO: changer l'image de courverture
 		tags: ['ThreeJS', 'SvelteKit'],
 		link: 'https://tetyana.les-voix-errantes-de-kyiv.fr/',
-	},
-	{
-		id: 3,
-		title: 'Mon panier MIC',
-		description: 'Site e-commerce Prestashop destiné la vente des produits des producteurs locaux.',
-		src: '/images/mic.png',
-		tags: ['Prestashop'],
-		link: 'https://monpanier-mic.com/index.php',
 	},
 	{
 		id: 4,
@@ -57,7 +49,15 @@ export const projects: Project[] = [
 		src: '/images/safentech.png',
 		tags: ['Hugo', 'TailwindCSS'],
 		link: 'https://safe-n-tech.netlify.app/',
-	}
+	},
+	{
+		id: 3,
+		title: 'Mon panier MIC',
+		description: 'Site e-commerce Prestashop destiné la vente des produits des producteurs locaux.',
+		src: '/images/mic.png',
+		tags: ['Prestashop'],
+		link: 'https://monpanier-mic.com/index.php',
+	},
 ];
 
 export const laboratory: Project[] = [
