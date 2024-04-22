@@ -6,6 +6,7 @@
 	import About from '$lib/components/About.svelte';
 	import { projects } from '$lib/data';
 	import type { Project } from '$lib/data/projects.ts';
+	import TitleAnimate from "$lib/components/TitleAnimate.svelte";
 
 	let isReady = false;
 
@@ -26,7 +27,9 @@
 	<Header />
 	<div class="max-w-[80%] mx-auto md:ml-[26%] mt-[10%] md:mt-10 md:mr-[5%]">
 		{#if isReady}
-			<h1 id="projects" in:fly={{ y: 100, duration: 1000 }}>Projets</h1>
+			<TitleAnimate>
+				<h1 id="projects" in:fly={{ y: 100, duration: 1000 }}>Projets</h1>
+			</TitleAnimate>
 			<section class="flex flex-col justify-between items-stretch gap-20 md:flex-row md:flex-wrap">
 				{#each projects as project}
 					<a

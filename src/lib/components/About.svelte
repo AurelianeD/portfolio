@@ -1,14 +1,19 @@
 <script lang="ts">
 	import { tools } from '$lib/data';
+	import TitleAnimate from "$lib/components/TitleAnimate.svelte";
 
 	let containerStyle = 'flex flex-col gap-10 mt-32 md:flex-row md:justify-between';
 	let toolStyle = 'flex flex-row flex-wrap gap-10 justify-center';
 	let href = '/pdf/cv_aurelianedor.pdf';
+
+
 </script>
 
 <section class={containerStyle}>
 	<div class="md:w-[50%]">
-		<h1 id="about">A propos</h1>
+		<TitleAnimate>
+			<h1 id="about">A propos</h1>
+		</TitleAnimate>
 		<p class="pb-10">
 			Après avoir étudié l'architecture pendant 3 ans, j'ai décidé de me reconvertir dans les
 			métiers du web. Au cours de mes études, je me suis découvert une passion pour le développement
