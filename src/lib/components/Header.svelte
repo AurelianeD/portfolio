@@ -23,7 +23,7 @@
 			<p>Auréliane Dor</p>
 			<p>
 				<span class="font-bold">Développeuse front-end web et mobile </span> chez
-				<a href="https://www.feelity.fr/" target="_blank">Feelity</a>
+				<a href="https://qomon.com/" target="_blank">Qomon</a>
 			</p>
 		</div>
 	</div>
